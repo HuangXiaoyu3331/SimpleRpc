@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:stone="http://www.huangxy.com/schema/stone-service"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.huangxy.com/schema/stone-service http://www.huangxy.com/schema/stone-service.xsd">
+
+    <!-- 发布远程服务 -->
+    <bean id="helloService" class="com.huangxy.stone.test.HelloServiceImpl"/>
+    <stone:service id="abcd" interface="com.huangxy.stone.test.HelloService" ref="helloService"/>
+
+</beans>

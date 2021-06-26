@@ -1,0 +1,2 @@
+http\://www.huangxy.com/schema/stone-service=com.huangxy.stone.framwork.StoneServiceNamespaceHandler
+http\://www.huangxy.com/schema/stone-reference=com.huangxy.stone.framwork.StoneReferenceNamespaceHandler
